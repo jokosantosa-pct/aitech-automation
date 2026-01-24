@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AITECH Automation | Industrial Automation & PLC Solutions UAE</title>
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contents/aitech.css">
+
+</head>
+
+<body class="scroll-smooth">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white shadow-md z-50 nav-sticky">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center">
+                    <div class="logo-text text-black">
+                        <img src="assets/logo_aitech_long.png" alt="AITECH" class="h-20 object-contain">
+                    </div>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#home" class="text-gray-700 hover:text-red-600 transition font-medium">Home</a>
+                    <a href="#services" class="text-gray-700 hover:text-red-600 transition font-medium">Services</a>
+                    <a href="#industries" class="text-gray-700 hover:text-red-600 transition font-medium">Industries</a>
+                    <a href="#retrofit" class="text-gray-700 hover:text-red-600 transition font-medium">Retrofit</a>
+                    <a href="#contact" class="text-gray-700 hover:text-red-600 transition font-medium">Contact</a>
+                </div>
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-700">
+                        <i class="fas fa-bars text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+            <div class="px-4 py-4 space-y-3">
+                <a href="#home" class="block text-gray-700 hover:text-red-600 font-medium">Home</a>
+                <a href="#services" class="block text-gray-700 hover:text-red-600 font-medium">Services</a>
+                <a href="#industries" class="block text-gray-700 hover:text-red-600 font-medium">Industries</a>
+                <a href="#retrofit" class="block text-gray-700 hover:text-red-600 font-medium">Retrofit</a>
+                <a href="#contact" class="block text-gray-700 hover:text-red-600 font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="pt-32 pb-20 gradient-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20">
+            <img src="assets/Soprema (1) 20240321_170242_IMG_7739.JPG" alt="Industrial Background"
+                class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
+                        Industrial Automation & PLC Solutions
+                    </h1>
+                    <p class="text-xl md:text-2xl mb-8 text-gray-300">
+                        Specialized in Siemens-based automation, system retrofit, and modern HMI design — serving
+                        manufacturers and process industries.
+                    </p>
+                    <div class="space-y-4 mb-8">
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="text-lg">Automation specialist</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="text-lg">Siemens PLC & HMI expert</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="text-lg">Retrofit & Modernization</span>
+                        </div>
+                    </div>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact"
+                            class="bg-accent-red text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition text-center">
+                            Contact Us
+                        </a>
+                        <a href="#services"
+                            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-black transition text-center">
+                            Our Services
+                        </a>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <img src="assets/Guedila Process room 20250722_131004.jpg" alt="PLC Programming"
+                        class="rounded-2xl shadow-2xl">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div>
+                    <img src="assets/Focal Machine Gravage - Diagnostic Appareil sur réseau Profinet.bmp"
+                        alt="Industrial Automation" class="rounded-xl shadow-lg">
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold text-gray-900 mb-6">Automation Expertise Focused on What Matters</h2>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        AITECH Automation is an industrial automation service provider based in the UAE, delivering PLC
+                        programming, system retrofit, and HMI solutions for industrial clients.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                        We focus exclusively on automation engineering — ensuring clean PLC logic, stable systems, and
+                        operator-friendly interfaces. Electrical installation is intentionally excluded, allowing us to
+                        fully concentrate on control systems, software, and automation performance.
+                    </p>
+                    <p class="text-lg text-gray-700 leading-relaxed">
+                        Our approach combines proven industrial standards with modern automation practices, especially
+                        for Siemens environments.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Industrial Automation Services</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Comprehensive automation solutions tailored to
+                your industrial needs</p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-600">
+                    <div class="mb-6">
+                        <img src="assets/Soprema (2) 20240321_191149_IMG_7741.JPG"
+                            alt="PLC Programming" class="w-full h-64 object-cover rounded-lg mb-4">
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-100 p-4 rounded-lg mr-4">
+                            <i class="fas fa-code accent-red text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">PLC Programming & Software Development</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>New PLC programs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Code restructuring & optimization</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Migration from obsolete PLCs</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Clean, documented logic (industry best practices)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
+                    <div class="mb-6">
+                        <img src="assets/MIB 2804 - Cabinet IMG_9486.JPG"
+                            alt="Automation Retrofit" class="w-full h-64 object-cover rounded-lg mb-4">
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-4 rounded-lg mr-4">
+                            <i class="fas fa-sync-alt accent-green text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Automation Retrofit & Modernization</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700 mb-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Upgrade old PLC / HMI hardware</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Improve system reliability & maintainability</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Extend machine lifecycle</span>
+                        </li>
+                    </ul>
+                    <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
+                        <p class="font-semibold text-gray-900 mb-2"><i class="fas fa-star text-yellow-500 mr-2"></i>Key
+                            Advantage:</p>
+                        <p class="text-gray-700">We can change the hardware while keeping the same HMI layout operators
+                            are already familiar with — minimizing training and production risk.</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-600">
+                    <div class="mb-6">
+                        <img src="assets/Focal Machine Gravage - Diagnostic Appareil sur réseau Profinet.bmp"
+                            alt="HMI Design" class="w-full h-64 object-cover rounded-lg mb-4">
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-red-100 p-4 rounded-lg mr-4">
+                            <i class="fas fa-desktop accent-red text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">HMI Design & Modernization</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Modern, clean HMI design</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Improved usability & readability</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Migration to newer HMI platforms</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-red mt-1 mr-3"></i>
+                            <span>Consistent visual standards</span>
+                        </li>
+                    </ul>
+                    <p class="mt-4 text-gray-600 italic">We value functional, modern, and operator-friendly HMI design.
+                    </p>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
+                    <div class="mb-6">
+                        <img src="assets/Persee Chateau Neuf Process (1) 20190919_125322.jpg"
+                            alt="Commissioning" class="w-full h-64 object-cover rounded-lg mb-4">
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-4 rounded-lg mr-4">
+                            <i class="fas fa-tools accent-green text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">Commissioning & Technical Support</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>On-site or remote commissioning</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Troubleshooting & diagnostics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Production support during startup</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Retrofit Example Section -->
+    <section id="retrofit" class="py-20 bg-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center mb-4">Proven Retrofit Experience</h2>
+            <p class="text-center text-gray-300 mb-12 text-lg">Retrofit without disrupting production habits is one of
+                our key strengths</p>
+
+            <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                <!-- Before Card -->
+                <div class="bg-red-700 p-6 md:p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-times-circle mr-3"></i> Before
+                    </h3>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-exclamation-triangle text-yellow-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Obsolete PLC / HMI hardware</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-exclamation-triangle text-yellow-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Limited diagnostics</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-exclamation-triangle text-yellow-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Aging interface</span>
+                        </li>
+                    </ul>
+
+                    <!-- Fixed Height Image Container with Slideshow -->
+                    <div class="relative bg-red-950 rounded-lg overflow-hidden" style="height: 640px;">
+                        <div id="before-slideshow" class="w-full h-full">
+                            <img src="assets/Retrofit PLC (1) before NEWCPU IMG_4688.JPG" alt="Old PLC System 1"
+                                class="before-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500">
+                            <img src="assets/Retrofit PLC Malax Fonderie (1) IMG_6175.JPG" alt="Old PLC System 2"
+                                class="before-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                            <img src="assets/Retrofit PLC Malax Fonderie (3) IMG_6906.JPG" alt="Old PLC System 3"
+                                class="before-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                        </div>
+
+                        <!-- Slideshow Indicators -->
+                        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                            <button
+                                class="before-indicator w-2 h-2 rounded-full bg-white opacity-100 transition-opacity"></button>
+                            <button
+                                class="before-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                            <button
+                                class="before-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- After Card -->
+                <div class="bg-green-700 p-6 md:p-8 rounded-xl">
+                    <h3 class="text-2xl font-bold mb-6 flex items-center">
+                        <i class="fas fa-check-circle mr-3"></i> After
+                    </h3>
+                    <ul class="space-y-3 mb-6">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Improved performance & reliability</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Same operator logic & screen structure</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-green-400 mt-1 mr-3 flex-shrink-0"></i>
+                            <span>Optional modernized HMI design</span>
+                        </li>
+                    </ul>
+
+                    <!-- Fixed Height Image Container with Slideshow -->
+                    <div class="relative bg-green-950 rounded-lg overflow-hidden" style="height: 640px;">
+                        <div id="after-slideshow" class="w-full h-full">
+                            <img src="assets/Retrofit PLC (2) after NEWCPU IMG_5026.JPG" alt="Modern PLC System 1"
+                                class="after-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500">
+                            <img src="assets/Retrofit PLC Malax Fonderie (2) IMG_7176.JPG" alt="Modern PLC System 2"
+                                class="after-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                            <img src="assets/Retrofit PLC Malax Fonderie (4) IMG_7205.JPG" alt="Modern PLC System 3"
+                                class="after-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                        </div>
+
+                        <!-- Slideshow Indicators -->
+                        <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                            <button
+                                class="after-indicator w-2 h-2 rounded-full bg-white opacity-100 transition-opacity"></button>
+                            <button
+                                class="after-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                            <button
+                                class="after-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section id="industries" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Industries We Serve</h2>
+            <p class="text-center text-gray-600 mb-12">Automation solutions across multiple sectors</p>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="relative overflow-hidden rounded-xl card-hover group">
+                    <img src="assets/Guedila Process room 20250722_131004.jpg"
+                        alt="Manufacturing" class="w-full h-64 object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex items-end p-6">
+                        <div>
+                            <i class="fas fa-industry text-white text-4xl mb-2"></i>
+                            <h3 class="text-xl font-bold text-white">Manufacturing & Machinery</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-xl card-hover group">
+                    <img src="assets/Soprema (1) 20240321_170242_IMG_7739.JPG"
+                        alt="Industrial Equipment" class="w-full h-64 object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex items-end p-6">
+                        <div>
+                            <i class="fas fa-cogs text-white text-4xl mb-2"></i>
+                            <h3 class="text-xl font-bold text-white">Industrial Process</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative overflow-hidden rounded-xl card-hover group">
+                    <img src="assets/Soprema (2) 20240321_191149_IMG_7741.JPG"
+                        alt="Retrofit Projects" class="w-full h-64 object-cover">
+                    <div
+                        class="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent flex items-end p-6">
+                        <div>
+                            <i class="fas fa-hard-hat text-white text-4xl mb-2"></i>
+                            <h3 class="text-xl font-bold text-white">Retrofit Projects</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="text-center text-gray-600 mt-8">We adapt our automation approach to both machine-based and
+                process-based environments.</p>
+        </div>
+    </section>
+
+    <!-- Why AITECH Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">Why AITECH Automation</h2>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-md flex items-start space-x-4 card-hover">
+                    <i class="fas fa-check-circle accent-green text-3xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-2 text-lg">Retrofit without disruption</h4>
+                        <p class="text-gray-600 text-sm">Maintain operator familiarity</p>
+                    </div>
+                </div>
+                <!-- <div class="bg-white p-6 rounded-xl shadow-md flex items-start space-x-4 card-hover">
+                    <i class="fas fa-check-circle accent-green text-3xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-2 text-lg">Clean PLC code</h4>
+                        <p class="text-gray-600 text-sm">Structured logic & documentation</p>
+                    </div>
+                </div> -->
+                <div class="bg-white p-6 rounded-xl shadow-md flex items-start space-x-4 card-hover">
+                    <i class="fas fa-check-circle accent-green text-3xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-2 text-lg">Modern HMI design</h4>
+                        <p class="text-gray-600 text-sm">Practical & operator-friendly</p>
+                    </div>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-md flex items-start space-x-4 card-hover">
+                    <i class="fas fa-check-circle accent-green text-3xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-gray-900 mb-2 text-lg">Flexible support</h4>
+                        <p class="text-gray-600 text-sm">New & existing systems</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- How We Work Section -->
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-4xl font-bold text-center text-gray-900 mb-12">How We Work</h2>
+
+            <div class="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="text-center">
+                    <div
+                        class="bg-accent-red text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg">
+                        1</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">System Review</h3>
+                    <p class="text-gray-600 text-lg">Understand your process, constraints, and existing automation.</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="bg-accent-green text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg">
+                        2</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Engineering & Implementation</h3>
+                    <p class="text-gray-600 text-lg">PLC programming, retrofit, HMI development.</p>
+                </div>
+                <div class="text-center">
+                    <div
+                        class="bg-gray-800 text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg">
+                        3</div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Commissioning & Support</h3>
+                    <p class="text-gray-600 text-lg">Startup assistance, fine-tuning, and documentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Platforms Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Supported Control Systems</h2>
+            <div class="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
+                <!-- Siemens Card -->
+                <div
+                    class="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-6 md:p-8 rounded-2xl card-hover shadow-xl">
+                    <!-- <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-star text-yellow-400 text-2xl md:text-3xl mr-3"></i>
+                            <h3 class="text-xl md:text-2xl font-bold">Siemens PLC & HMI</h3>
+                        </div>
+                    </div> -->
+
+                    <!-- Logo Placeholder with Image -->
+                    <div class="bg-white rounded-xl p-6 md:p-8 mb-6 flex items-center justify-center">
+                        <img src="assets/logo siemens.png" alt="Siemens Logo" class="h-16 md:h-20 object-contain">
+                    </div>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center bg-gray-800 rounded-lg p-3">
+                            <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                            <span class="text-sm md:text-base">S7 Classic / TIA Portal</span>
+                        </div>
+                        <div class="flex items-center bg-gray-800 rounded-lg p-3">
+                            <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                            <span class="text-sm md:text-base">WinCC / WinCC Unified</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Schneider Card -->
+                <div
+                    class="bg-gradient-to-br from-gray-700 to-gray-600 text-white p-6 md:p-8 rounded-2xl card-hover shadow-xl">
+                    <!-- <div class="flex items-center justify-between mb-6">
+                        <div class="flex items-center">
+                            <i class="fas fa-cog text-gray-300 text-2xl md:text-3xl mr-3"></i>
+                            <h3 class="text-xl md:text-2xl font-bold">Schneider Electric</h3>
+                        </div>
+                    </div> -->
+
+                    <!-- Logo Placeholder with Image -->
+                    <div class="bg-white rounded-xl p-6 md:p-8 mb-6 flex items-center justify-center">
+                        <img src="assets/logo schneider.jpg" alt="Schneider Logo" class="h-16 md:h-20 object-contain">
+                    </div>
+
+                    <div class="space-y-3 mb-6">
+                        <div class="flex items-center bg-gray-600 rounded-lg p-3">
+                            <i class="fas fa-circle text-xs text-gray-300 mr-3"></i>
+                            <span class="text-sm md:text-base">Modicon PLC</span>
+                        </div>
+                        <div class="flex items-center bg-gray-600 rounded-lg p-3">
+                            <i class="fas fa-circle text-xs text-gray-300 mr-3"></i>
+                            <span class="text-sm md:text-base">Vijeo / EcoStruxure</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Info -->
+            <p class="text-center text-gray-600 mt-8 text-sm md:text-base">Siemens-based projects are our core expertise
+            </p>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-20 gradient-bg text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-10">
+            <img src="https://images.unsplash.com/photo-1581092918484-8313b1f2954e?w=1920&q=80" alt="Contact Background"
+                class="w-full h-full object-cover">
+        </div>
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <h2 class="text-4xl md:text-5xl font-bold mb-6">Let's Upgrade Your Automation System</h2>
+            <p class="text-xl mb-8 text-gray-300">
+                Whether you need a new PLC program, a retrofit project, or a modern HMI upgrade — AITECH Automation is
+                ready to support your project.
+            </p>
+
+            <div class="grid md:grid-cols-3 gap-6 mb-10">
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <i class="fas fa-map-marker-alt text-4xl mb-3 accent-red"></i>
+                    <h4 class="font-semibold mb-2 text-lg">Location</h4>
+                    <p>United Arab Emirates</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <i class="fas fa-envelope text-4xl mb-3 accent-red"></i>
+                    <h4 class="font-semibold mb-2 text-lg">Email</h4>
+                    <p>info@aitech-automation.com</p>
+                </div>
+                <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
+                    <i class="fas fa-phone text-4xl mb-3 accent-red"></i>
+                    <h4 class="font-semibold mb-2 text-lg">Phone</h4>
+                    <p>+3361 917 0553</p>
+                </div>
+            </div>
+
+            <!-- <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="mailto:info@aitech-automation.com" class="bg-accent-red text-white px-8 py-4 rounded-lg font-semibold hover:bg-red-700 transition text-center shadow-lg">
+                    Request a Technical Consultation
+                </a>
+                <a href="tel:+971XXXXXXXX" class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-black transition text-center">
+                    Discuss Your Automation Project
+                </a>
+            </div> -->
+            <!-- Contact Form -->
+            <div class="bg-white rounded-2xl p-8 shadow-lg max-w-2xl mx-auto">
+                <h3 class="text-2xl font-bold text-gray-800 mb-6 text-center">Send us a message</h3>
+                <form id="contactForm" class="space-y-4">
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2">Name</label>
+                        <input type="text" id="name" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Your name">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2">Email</label>
+                        <input type="email" id="email" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="your@email.com">
+                    </div>
+                    <div>
+                        <label class="block text-gray-700 font-semibold mb-2">Message</label>
+                        <textarea rows="4" id="message" required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                            placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="w-full px-8 py-4 gradient-bg text-white rounded-lg font-semibold hover:opacity-90 transition shadow-lg">
+                        <i class="fab fa-whatsapp mr-2"></i>Send via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black text-gray-300 py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8 mb-8">
+                <div>
+                    <img src="assets/Logo_V0.png" alt="AITECH" class="h-20 object-contain">
+                    <p class="text-sm">Industrial Automation & PLC Engineering</p>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" class="hover:text-red-500 transition">Home</a></li>
+                        <li><a href="#services" class="hover:text-red-500 transition">Services</a></li>
+                        <li><a href="#industries" class="hover:text-red-500 transition">Industries</a></li>
+                        <li><a href="#retrofit" class="hover:text-red-500 transition">Retrofit</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li>PLC Programming</li>
+                        <li>System Retrofit</li>
+                        <li>HMI Design</li>
+                        <li>Commissioning</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-white font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><i class="fas fa-envelope mr-2 accent-red"></i> info@aitech-automation.com</li>
+                        <li><i class="fas fa-phone mr-2 accent-red"></i> +3361 917 0553</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 accent-red"></i> United Arab Emirates</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 pt-8 text-center text-sm">
+                <p>&copy; 2026 AITECH Automation — UAE. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- HTML -->
+    <a class="whatsapp-float" href="https://wa.me/33619170553?text=Hi%20AITech%20Automation%20..." target="_blank"
+        rel="noopener noreferrer" aria-label="Chat via WhatsApp">
+        <!-- SVG icon WhatsApp -->
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path
+                d="M20.52 3.48A11.88 11.88 0 0 0 12 .25 11.93 11.93 0 0 0 .25 12c0 2.12.56 4.12 1.62 5.89L0 24l6.45-1.66A11.9 11.9 0 0 0 12 23.75 11.93 11.93 0 0 0 24 11.8c0-1.84-.45-3.58-1.24-5.17l-2.24-2.95zM12 21.5a9.42 9.42 0 0 1-4.6-1.12l-.33-.19-3.83.98.98-3.73-.2-.37A9.5 9.5 0 1 1 21.5 12 9.39 9.39 0 0 1 12 21.5z" />
+            <path
+                d="M17.06 14.05c-.26-.13-1.53-.76-1.77-.84-.24-.08-.42-.12-.6.12s-.69.84-.85 1.01c-.16.16-.32.19-.58.06-.26-.13-1.03-.38-1.96-1.2-.72-.64-1.21-1.43-1.35-1.69-.14-.26-.015-.4.11-.53.11-.11.26-.28.39-.42.13-.14.17-.24.26-.4.09-.16.04-.3-.02-.42-.06-.12-.6-1.44-.82-1.98-.22-.52-.45-.45-.62-.46l-.53-.01c-.18 0-.47.07-.72.35-.25.27-.96.94-.96 2.29s.98 2.66 1.12 2.84c.14.17 1.94 3 4.7 4.2 1.66.72 2.46.81 3.34.67.54-.09 1.53-.62 1.75-1.22.22-.59.22-1.09.15-1.2-.06-.11-.23-.17-.48-.3z" />
+        </svg>
+        <span class="whatsapp-badge">Chat</span>
+    </a>
+
+    <script src="contents/aitech.js"></script>
+</body>
