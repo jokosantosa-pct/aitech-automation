@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 50%, #1a1a1a 100%);
+}
+
+.gradient-accent {
+    background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+.card-hover {
+    transition: all 0.3s ease;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.nav-sticky {
+    transition: all 0.3s ease;
+}
+
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+.accent-red {
+    color: #dc2626;
+}
+
+.accent-green {
+    color: #16a34a;
+}
+
+.bg-accent-red {
+    background-color: #dc2626;
+}
+
+.bg-accent-green {
+    background-color: #16a34a;
+}
+
+.logo-text {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.whatsapp-float {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(180deg, #25D366 0%, #128C7E 100%);
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    transition: transform .18s ease, box-shadow .18s ease;
+    z-index: 9999;
+}
+
+/* Hover/active */
+.whatsapp-float:hover {
+    transform: translateY(-4px) scale(1.03);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
+}
+
+/* SVG icon sizing */
+.whatsapp-float svg {
+    width: 28px;
+    height: 28px;
+    fill: white;
+}
+
+/* Optional small label */
+.whatsapp-badge {
+    position: absolute;
+    right: 70px;
+    bottom: 16px;
+    background: #ffffff;
+    color: #128C7E;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    white-space: nowrap;
+    opacity: 0;
+    transform: translateX(6px);
+    transition: opacity .18s ease, transform .18s ease;
+    pointer-events: none;
+    font-size: 13px;
+}
+
+/* show badge on hover (desktop) */
+.whatsapp-float:hover+.whatsapp-badge,
+/* in case DOM order differs */
+.whatsapp-float:hover .whatsapp-badge {
+    opacity: 1;
+    transform: translateX(0);
+}
