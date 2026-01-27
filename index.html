@@ -134,8 +134,6 @@
         </div>
     </section>
 
-
-
     <!-- Services Section -->
     <section id="services" class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -176,7 +174,7 @@
                     </ul>
                 </div>
 
-                <!-- Service 1 -->
+                <!-- Service 2 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-600">
                     <div class="mb-6">
                         <img src="assets/PLC Programming.png" alt="PLC Programming"
@@ -284,8 +282,7 @@
                     </p>
                 </div>
 
-
-                <!-- Service 2 -->
+                <!-- Service 4 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
                     <div class="mb-6">
                         <img src="assets/MIB 2804 - Cabinet IMG_9486.png" alt="Automation Retrofit"
@@ -501,7 +498,6 @@
         </div>
     </section>
 
-
     <!-- How We Work Section -->
     <section class="py-20 bg-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -558,8 +554,12 @@
     <!-- Platforms Section -->
     <section class="py-20 bg-gray-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">Supported Control Systems</h2>
-            <div class="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-3">Supported Control Systems</h2>
+            <p class="text-center text-gray-600 mb-12 max-w-3xl mx-auto">Primary automation platforms and specialized
+                technologies we work with</p>
+
+            <!-- Main PLC Platforms -->
+            <div class="grid md:grid-cols-2 gap-6 md:gap-8 max-w-5xl mx-auto mb-12">
                 <!-- Siemens Card -->
                 <div
                     class="bg-gradient-to-br from-gray-900 to-gray-800 text-white p-6 md:p-8 rounded-2xl card-hover shadow-xl">
@@ -570,21 +570,42 @@
                         </div>
                     </div> -->
 
+                    <!-- <p class="text-gray-300 mb-6 text-sm md:text-base">Primary Platform - ~90% of Projects</p> -->
+
                     <!-- Logo Placeholder with Image -->
                     <div class="bg-white rounded-xl p-6 md:p-8 mb-6 flex items-center justify-center">
                         <img src="assets/logo siemens.png" alt="Siemens Logo" class="h-16 md:h-20 object-contain">
                     </div>
 
-                    <div class="space-y-3 mb-6">
-                        <div class="flex items-center bg-gray-800 rounded-lg p-3">
-                            <i class="fas fa-circle text-xs accent-red mr-3"></i>
-                            <span class="text-sm md:text-base">S7 Classic / TIA Portal</span>
+                    <div class="space-y-3 mb-4">
+                        <div class="bg-gray-800 rounded-lg p-3">
+                            <p class="font-semibold mb-2 text-sm text-gray-300">PLC & HMI:</p>
+                            <div class="flex items-center mb-1">
+                                <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                                <span class="text-sm md:text-base">S7 Classic / TIA Portal</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                                <span class="text-sm md:text-base">WinCC / WinCC Unified</span>
+                            </div>
                         </div>
-                        <div class="flex items-center bg-gray-800 rounded-lg p-3">
-                            <i class="fas fa-circle text-xs accent-red mr-3"></i>
-                            <span class="text-sm md:text-base">WinCC / WinCC Unified</span>
+
+                        <div class="bg-gray-800 rounded-lg p-3">
+                            <p class="font-semibold mb-2 text-sm text-gray-300">Drive & Motion Control:</p>
+                            <div class="flex items-center mb-1">
+                                <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                                <span class="text-sm md:text-base">G120, S110, S210</span>
+                            </div>
+                            <div class="flex items-center">
+                                <i class="fas fa-circle text-xs accent-red mr-3"></i>
+                                <span class="text-sm md:text-base">Sinamics Drive Systems</span>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- <div class="bg-accent-red p-4 rounded-lg text-center">
+                        <p class="font-bold text-base md:text-lg">Core Expertise</p>
+                    </div> -->
                 </div>
 
                 <!-- Schneider Card -->
@@ -596,6 +617,8 @@
                             <h3 class="text-xl md:text-2xl font-bold">Schneider Electric</h3>
                         </div>
                     </div> -->
+
+                    <!-- <p class="text-gray-200 mb-6 text-sm md:text-base">Secondary Platform</p> -->
 
                     <!-- Logo Placeholder with Image -->
                     <div class="bg-white rounded-xl p-6 md:p-8 mb-6 flex items-center justify-center">
@@ -615,8 +638,80 @@
                 </div>
             </div>
 
+            <!-- Additional Technologies -->
+            <div class="max-w-6xl mx-auto">
+                <h3 class="text-2xl md:text-3xl font-bold text-center text-gray-900 mb-8">Additional Technologies &
+                    Partners</h3>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
+                    <!-- Festo -->
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg p-1 mb-3 flex items-center justify-center h-20">
+                            <img src="assets/festo-logo_150.png" alt="Festo" class="w-full object-contain">
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">Festo</h4>
+                        <p class="text-xs text-gray-600">Drives & Pneumatics</p>
+                    </div>
+
+                    <!-- Bosch Rexroth -->
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg p-1 mb-3 flex items-center justify-center h-20">
+                            <img src="assets/1280px-Bosch_Rexroth.svg.png" alt="Bosch Rexroth"
+                                class="w-full object-contain">
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">Bosch Rexroth</h4>
+                        <p class="text-xs text-gray-600">Motion Control</p>
+                    </div>
+
+                    <!-- PILZ -->
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg p-1 mb-3 flex items-center justify-center h-20">
+                            <img src="assets/pilz.png" alt="PILZ" class="w-full object-contain">
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">PILZ</h4>
+                        <p class="text-xs text-gray-600">Safety Systems</p>
+                    </div>
+
+                    <!-- HMS Anybus -->
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg p-1 mb-3 flex items-center justify-center h-20">
+                            <img src="assets/b886c1438f83567f2fbc425ba0ffec5f-hms-logo.png" alt="HMS Anybus"
+                                class="w-full object-contain">
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">HMS Anybus</h4>
+                        <p class="text-xs text-gray-600">Gateway Solutions</p>
+                    </div>
+
+                    <!-- Proface -->
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg p-1 mb-3 flex items-center justify-center h-20">
+                            <img src="assets/9.-Proface-Logo_high-res.png" alt="Proface" class="w-full object-contain">
+                        </div>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">Proface</h4>
+                        <p class="text-xs text-gray-600">HMI Panels</p>
+                    </div>
+
+                    <div class="bg-white p-2 rounded-xl shadow-md card-hover text-center">
+                        <div class="bg-gray-100 rounded-lg mb-3 flex items-center justify-center h-24">
+                            <img src="assets/industrialNetworks.png" alt="Industrial Networks"
+                                class="w-full object-contain">
+                        </div>
+                        <p class="text-xs text-gray-600">Industrial Networks</p>
+                    </div>
+                    <!-- And More -->
+                    <!-- <div class="bg-gradient-to-br from-gray-100 to-gray-200 p-4 rounded-xl shadow-md text-center flex flex-col items-center justify-center">
+                        <i class="fas fa-plus-circle text-4xl text-gray-400 mb-2"></i>
+                        <h4 class="font-bold text-gray-900 text-sm mb-1">And More</h4>
+                        <p class="text-xs text-gray-600">Contact us</p>
+                    </div> -->
+                </div>
+            </div>
+
             <!-- Additional Info -->
-            <p class="text-center text-gray-600 mt-8 text-sm md:text-base">Siemens-based projects are our core expertise
+            <p class="text-center text-gray-600 mt-10 text-sm md:text-base max-w-3xl mx-auto">
+                We integrate diverse automation technologies while maintaining Siemens as our primary platform
+                expertise. Our experience spans across PLC/HMI, drives, motion control, safety systems, and industrial
+                networking.
             </p>
         </div>
     </section>
