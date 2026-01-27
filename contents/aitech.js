@@ -40,6 +40,12 @@ window.addEventListener('scroll', () => {
     }
 });
 
+//HMI
+
+let hmiIndex = 0;
+const hmiSlides = document.querySelectorAll('.hmi-slide');
+const hmiIndicators = document.querySelectorAll('.hmi-indicator');
+
 // Synchronized Slideshow for Before and After
 let beforeIndex = 0;
 let afterIndex = 0;
@@ -66,11 +72,22 @@ function showAfterSlide(index) {
     });
 }
 
+function showHMISlide(index) {
+    hmiSlides.forEach((slide, i) => {
+        slide.style.opacity = i === index ? '1' : '0';
+    });
+    hmiIndicators.forEach((indicator, i) => {
+        indicator.style.opacity = i === index ? '1' : '0.5';
+    });
+}
+
 function nextSlides() {
     beforeIndex = (beforeIndex + 1) % beforeSlides.length;
     afterIndex = (afterIndex + 1) % afterSlides.length;
+    hmiIndex = (hmiIndex + 1) % hmiSlides.length;
     showBeforeSlide(beforeIndex);
     showAfterSlide(afterIndex);
+    showHMISlide(hmiIndex);
 }
 
 // Auto slide every 4 seconds

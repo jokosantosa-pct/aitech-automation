@@ -50,9 +50,16 @@
 
     <!-- Hero Section -->
     <section id="home" class="pt-32 pb-20 gradient-bg text-white relative overflow-hidden">
-        <div class="absolute inset-0 opacity-20">
-            <img src="assets/Persee Chateau Neuf Process (2) 20190919_125341.png" alt="Industrial Background"
-                class="w-full h-full object-cover">
+        <!-- <div class="absolute inset-0 opacity-20">
+            <img src="assets/Soprema_20240321.png" alt="Industrial Background" class="w-full h-full object-cover">
+        </div> -->
+        <div class="absolute inset-0 opacity-100 overflow-hidden">
+            <video class="w-full h-full object-cover" autoplay muted loop playsinline>
+                <source src="assets/Clip_machines_NoSound-2.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <!-- Black overlay 30% -->
+            <div class="absolute inset-0 bg-gradient-to-r from-black/50 via-black/30 to-black/10"></div>
         </div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid md:grid-cols-2 gap-12 items-center">
@@ -60,26 +67,26 @@
                     <h1 class="text-5xl md:text-6xl font-bold mb-6 leading-tight">
                         Industrial Automation & PLC Solutions
                     </h1>
-                    <p class="text-xl md:text-2xl mb-8 text-gray-300">
-                        Specialized in Siemens-based automation, system retrofit, and modern HMI design — serving
-                        manufacturers and process industries.
+                    <p class="text-xl md:text-2xl mb-8 text-gray-100 text-lg leading-relaxed max-w-xl">
+                        Specialized in Siemens-based automation for <b>brand new machines</b>, system integration, and
+                        selective retrofit & modernization.
                     </p>
                     <div class="space-y-4 mb-8">
                         <div class="flex items-center space-x-3">
-                            <span class="px-4 py-2 bg-white bg-opacity-20 rounded-full text-sm backdrop-blur-sm">
-                                <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="px-4 py-2 bg-white bg-opacity-30 rounded-full text-sm backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-xl"></i>
                                 <span class="text-lg">Automation specialist</span>
                             </span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <span class="px-4 py-2 bg-white bg-opacity-20 rounded-full text-sm backdrop-blur-sm">
-                                <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="px-4 py-2 bg-white bg-opacity-30 rounded-full text-sm backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-xl"></i>
                                 <span class="text-lg">PLC & HMI expert</span>
                             </span>
                         </div>
                         <div class="flex items-center space-x-3">
-                            <span class="px-4 py-2 bg-white bg-opacity-20 rounded-full text-sm backdrop-blur-sm">
-                                <i class="fas fa-check-circle accent-green text-xl"></i>
+                            <span class="px-4 py-2 bg-white bg-opacity-30 rounded-full text-sm backdrop-blur-sm">
+                                <i class="fas fa-check-circle text-xl"></i>
                                 <span class="text-lg">Retrofit & Modernization</span>
                             </span>
                         </div>
@@ -90,15 +97,15 @@
                             Contact Us
                         </a>
                         <a href="#services"
-                            class="border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white hover:text-black transition text-center">
+                            class="border-2 border-white bg-white bg-opacity-30 text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-100 hover:text-black transition text-center">
                             Our Services
                         </a>
                     </div>
                 </div>
-                <div class="hidden md:block">
+                <!-- <div class="hidden md:block">
                     <img src="assets/Guedila Process room 20250722_131004.png" alt="PLC Programming"
                         class="rounded-2xl shadow-2xl">
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -108,23 +115,18 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 items-center">
                 <div>
-                    <img src="assets/Soprema (1) 20240321_170242_IMG_7739.png" alt="Industrial Automation"
-                        class="rounded-xl shadow-lg">
+                    <img src="assets/Soprema_20240321.png" alt="Industrial Automation" class="rounded-xl shadow-lg">
                 </div>
                 <div>
                     <h2 class="text-4xl font-bold text-gray-900 mb-6">Automation Expertise Focused on What Matters</h2>
                     <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                        AITECH Automation is an industrial automation service provider based in the UAE, delivering PLC
-                        programming, system retrofit, and HMI solutions for industrial clients.
+                        AITECH Automation is an industrial automation service provider specializing in brand new machine
+                        projects and complete automation solutions, from concept to commissioning.
                     </p>
                     <p class="text-lg text-gray-700 leading-relaxed mb-4">
-                        We focus exclusively on automation engineering — ensuring clean PLC logic, stable systems, and
-                        operator-friendly interfaces. Electrical installation is intentionally excluded, allowing us to
-                        fully concentrate on control systems, software, and automation performance.
-                    </p>
-                    <p class="text-lg text-gray-700 leading-relaxed">
-                        Our approach combines proven industrial standards with modern automation practices, especially
-                        for Siemens environments.
+                        While retrofit and modernization projects represent part of our activity, our main expertise
+                        lies in the development of new machines and greenfield automation projects, delivered through a
+                        structured and proven working methodology.
                     </p>
                 </div>
             </div>
@@ -139,12 +141,44 @@
             <h2 class="text-4xl font-bold text-center text-gray-900 mb-4">Industrial Automation Services</h2>
             <p class="text-center text-gray-600 mb-12 max-w-2xl mx-auto">Comprehensive automation solutions tailored to
                 your industrial needs</p>
-
             <div class="grid md:grid-cols-2 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
+                    <div class="mb-6">
+                        <img src="assets/New Machine.png" alt="New Machine Automation"
+                            class="w-full h-64 object-cover rounded-lg mb-4">
+                    </div>
+                    <div class="flex items-center mb-4">
+                        <div class="bg-green-100 p-4 rounded-lg mr-4">
+                            <i class="fas fa-code accent-green text-3xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900">New Machine Automation Projects</h3>
+                    </div>
+                    <ul class="space-y-3 text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Complete automation solutions for brand new machines,</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Covering system architecture</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>PLC rogramming, HMI design, safety integration</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
+                            <span>Commissioning, documentation, and operator
+                                training.</span>
+                        </li>
+                    </ul>
+                </div>
+
                 <!-- Service 1 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-600">
                     <div class="mb-6">
-                        <img src="assets/Soprema (2) 20240321_191149_IMG_7741.png" alt="PLC Programming"
+                        <img src="assets/PLC Programming.png" alt="PLC Programming"
                             class="w-full h-64 object-cover rounded-lg mb-4">
                     </div>
                     <div class="flex items-center mb-4">
@@ -172,45 +206,58 @@
                         </li>
                     </ul>
                 </div>
-
-                <!-- Service 2 -->
+                <!-- Service 4 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
                     <div class="mb-6">
-                        <img src="assets/MIB 2804 - Cabinet IMG_9486.png" alt="Automation Retrofit"
+                        <img src="assets/Persee Chateau Neuf Process (1) 20190919_125322.png" alt="Commissioning"
                             class="w-full h-64 object-cover rounded-lg mb-4">
                     </div>
                     <div class="flex items-center mb-4">
                         <div class="bg-green-100 p-4 rounded-lg mr-4">
-                            <i class="fas fa-sync-alt accent-green text-3xl"></i>
+                            <i class="fas fa-tools accent-green text-3xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Automation Retrofit & Modernization</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Commissioning & Technical Support</h3>
                     </div>
-                    <ul class="space-y-3 text-gray-700 mb-4">
+                    <ul class="space-y-3 text-gray-700">
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>Upgrade old PLC / HMI hardware</span>
+                            <span>On-site or remote commissioning</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>Improve system reliability & maintainability</span>
+                            <span>Troubleshooting & diagnostics</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>Extend machine lifecycle</span>
+                            <span>Production support during startup</span>
                         </li>
                     </ul>
-                    <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-600">
-                        <p class="font-semibold text-gray-900 mb-2"><i class="fas fa-star text-yellow-500 mr-2"></i>Key
-                            Advantage:</p>
-                        <p class="text-gray-700">We can change the hardware while keeping the same HMI layout operators
-                            are already familiar with — minimizing training and production risk.</p>
-                    </div>
                 </div>
 
                 <!-- Service 3 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-red-600">
                     <div class="mb-6">
-                        <img src="assets/hmi.png" alt="HMI Design" class="w-full h-64 object-cover rounded-lg mb-4">
+                        <!-- <img src="assets/hmi.png" alt="HMI Design" class="w-full h-64 object-cover rounded-lg mb-4"> -->
+                        <div class="relative w-full h-64 overflow-hidden rounded-lg mb-4">
+                            <div id="hmi-slideshow" class="w-full h-full">
+                                <img src="assets/hmi-1.png" alt="HMI 1"
+                                    class="hmi-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500">
+                                <img src="assets/Technetics Diag IO SCREEN_1202_Diag_PLC.png" alt="HMI 2"
+                                    class="hmi-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                                <img src="assets/Technetics Param Screen intuitive SCREEN_1111_Param_Abrasif1.png"
+                                    alt="HMI 3"
+                                    class="hmi-slide w-full h-full object-cover absolute inset-0 transition-opacity duration-500 opacity-0">
+                            </div>
+                            <!-- Slideshow Indicators -->
+                            <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 z-10">
+                                <button
+                                    class="hmi-indicator w-2 h-2 rounded-full bg-white opacity-100 transition-opacity"></button>
+                                <button
+                                    class="hmi-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                                <button
+                                    class="hmi-indicator w-2 h-2 rounded-full bg-white opacity-50 transition-opacity"></button>
+                            </div>
+                        </div>
                     </div>
                     <div class="flex items-center mb-4">
                         <div class="bg-red-100 p-4 rounded-lg mr-4">
@@ -240,33 +287,43 @@
                     </p>
                 </div>
 
-                <!-- Service 4 -->
+
+                <!-- Service 2 -->
                 <div class="bg-gray-50 p-8 rounded-xl shadow-lg card-hover border-l-4 border-green-600">
                     <div class="mb-6">
-                        <img src="assets/Persee Chateau Neuf Process (1) 20190919_125322.png" alt="Commissioning"
+                        <img src="assets/MIB 2804 - Cabinet IMG_9486.png" alt="Automation Retrofit"
                             class="w-full h-64 object-cover rounded-lg mb-4">
                     </div>
                     <div class="flex items-center mb-4">
                         <div class="bg-green-100 p-4 rounded-lg mr-4">
-                            <i class="fas fa-tools accent-green text-3xl"></i>
+                            <i class="fas fa-sync-alt accent-green text-3xl"></i>
                         </div>
-                        <h3 class="text-2xl font-bold text-gray-900">Commissioning & Technical Support</h3>
+                        <h3 class="text-2xl font-bold text-gray-900">Automation Retrofit & Modernization</h3>
                     </div>
-                    <ul class="space-y-3 text-gray-700">
+                    <ul class="space-y-3 text-gray-700 mb-4">
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>On-site or remote commissioning</span>
+                            <span>Upgrade old PLC / HMI hardware</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>Troubleshooting & diagnostics</span>
+                            <span>Improve system reliability & maintainability</span>
                         </li>
                         <li class="flex items-start">
                             <i class="fas fa-chevron-right accent-green mt-1 mr-3"></i>
-                            <span>Production support during startup</span>
+                            <span>Extend machine lifecycle</span>
                         </li>
                     </ul>
+                    <!-- <div class="bg-green-50 p-4 rounded-lg border-l-4 border-green-600"> -->
+                        <!-- <p class="font-semibold text-gray-900 mb-2"><i class="fas fa-star text-yellow-500 mr-2"></i>Key
+                            Advantage:</p>
+                        <p class="text-gray-700"> -->
+                        <p class="mt-4 text-gray-600 italic">We can change the hardware while keeping the same HMI
+                            layout operators
+                            are already familiar with — minimizing training and production risk.</p>
+                    <!-- </div> -->
                 </div>
+
             </div>
         </div>
     </section>
@@ -274,9 +331,12 @@
     <!-- Retrofit Example Section -->
     <section id="retrofit" class="py-20 bg-gray-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 class="text-4xl font-bold text-center mb-4">Proven Retrofit Experience</h2>
-            <p class="text-center text-gray-300 mb-12 text-lg">Retrofit without disrupting production habits is one of
-                our key strengths</p>
+            <h2 class="text-4xl font-bold text-center mb-4">Selective Retrofit Experience</h2>
+            <p class="text-center text-gray-300 mb-12 text-lg">
+                In addition to new machine projects, AITECH Automation
+                also provides selective retrofit and modernization services.
+                <br>Retrofit without disrupting production habits is one of our key strengths
+            </p>
 
             <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
                 <!-- Before Card -->
@@ -471,7 +531,7 @@
                         class="bg-accent-green text-white w-20 h-20 rounded-full flex items-center justify-center text-3xl font-bold mx-auto mb-4 shadow-lg">
                         2</div>
                     <h3 class="text-2xl font-bold text-gray-900 mb-3">Engineering & Implementation</h3>
-                    <p class="text-gray-600 text-lg">PLC programming, retrofit, HMI development.</p>
+                    <p class="text-gray-600 text-lg">PLC programming, retrofit, HMI/Scada development.</p>
                 </div>
                 <div class="text-center">
                     <div
@@ -567,17 +627,21 @@
                 <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                     <i class="fas fa-map-marker-alt text-4xl mb-3 accent-red"></i>
                     <h4 class="font-semibold mb-2 text-lg">Location</h4>
-                    <p>United Arab Emirates</p>
+                    <p>
+                        Building A1 - Dubai Digital Park<br>
+                        Dubai Silicon Oasis<br>
+                        Dubai, United Arab Emirate
+                    </p>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                     <i class="fas fa-envelope text-4xl mb-3 accent-red"></i>
                     <h4 class="font-semibold mb-2 text-lg">Email</h4>
-                    <p>info@aitech-automation.com</p>
+                    <p>contact@aitech-automation.com</p>
                 </div>
                 <div class="bg-white/10 backdrop-blur-sm p-6 rounded-lg">
                     <i class="fas fa-phone text-4xl mb-3 accent-red"></i>
                     <h4 class="font-semibold mb-2 text-lg">Phone</h4>
-                    <p>+3361 917 0553</p>
+                    <p>+971 50 69 40 139</p>
                 </div>
             </div>
 
@@ -649,8 +713,9 @@
                     <h4 class="text-white font-semibold mb-4">Contact</h4>
                     <ul class="space-y-2 text-sm">
                         <li><i class="fas fa-envelope mr-2 accent-red"></i> info@aitech-automation.com</li>
-                        <li><i class="fas fa-phone mr-2 accent-red"></i> +3361 917 0553</li>
-                        <li><i class="fas fa-map-marker-alt mr-2 accent-red"></i> United Arab Emirates</li>
+                        <li><i class="fas fa-phone mr-2 accent-red"></i> +971 50 69 40 139</li>
+                        <li><i class="fas fa-map-marker-alt mr-2 accent-red"></i>Building A1 - Dubai Digital Park, Dubai
+                            Silicon Oasis - Dubai, United Arab Emirates</li>
                     </ul>
                 </div>
             </div>
@@ -661,7 +726,7 @@
     </footer>
 
     <!-- HTML -->
-    <a class="whatsapp-float" href="https://wa.me/33619170553?text=Hi%20AITech%20Automation%20..." target="_blank"
+    <a class="whatsapp-float" href="https://wa.me/971506940139?text=Hi%20AITech%20Automation%20..." target="_blank"
         rel="noopener noreferrer" aria-label="Chat via WhatsApp">
         <!-- SVG icon WhatsApp -->
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
