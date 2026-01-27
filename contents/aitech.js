@@ -41,7 +41,6 @@ window.addEventListener('scroll', () => {
 });
 
 //HMI
-
 let hmiIndex = 0;
 const hmiSlides = document.querySelectorAll('.hmi-slide');
 const hmiIndicators = document.querySelectorAll('.hmi-indicator');
@@ -122,7 +121,7 @@ document.addEventListener('DOMContentLoaded', function () {
             const waMessage = `*New Contact Form Submission*%0A%0A*Name:* ${encodeURIComponent(name)}%0A*Email:* ${encodeURIComponent(email)}%0A*Message:* ${encodeURIComponent(message)}`;
 
             // Nomor WhatsApp tujuan (ganti dengan nomor yang diinginkan)
-            const phoneNumber = '33619170553'; // Nomor Indonesia tanpa tanda +
+            const phoneNumber = '971506940139'; // Nomor Indonesia tanpa tanda +
 
             // Buka WhatsApp
             window.open(`https://wa.me/${phoneNumber}?text=${waMessage}`, '_blank');
