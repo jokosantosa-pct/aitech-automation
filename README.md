@@ -42,8 +42,10 @@ aitech-automation/
 ├── contents/      # Section contents / partials
 ├── index.html     # Main entry point
 └── README.md      # Project documentation
+```
+---
 
-🚀 Getting Started
+## 🚀 Getting Started
 1. Clone the repository
 git clone https://github.com/jokosantosa-pct/aitech-automation.git
 
@@ -54,7 +56,9 @@ You can directly open index.html in your browser, or use a local server:
 # example using VS Code Live Server
 Right click index.html → Open with Live Server
 
-🌍 Deployment
+---
+
+## 🌍 Deployment
 
 This project is deployed using GitHub Pages.
 
@@ -70,16 +74,24 @@ Live URL:
 
 https://jokosantosa-pct.github.io/aitech-automation
 
-📄 License
+---
+
+## 📄 License
 
 This project is intended for company profile and presentation purposes.
 All content, branding, and assets belong to Aitech Automation unless stated otherwise.
 
-👤 Author
+---
+
+## 👤 Author
 
 Joko Santosa
 GitHub: https://github.com/jokosantosa-pct
 
-📬 Contact
+---
+
+## 📬 Contact
 
 For business inquiries or collaboration, please contact through the official Aitech Automation channels.
+
+---
