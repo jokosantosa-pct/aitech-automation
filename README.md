@@ -2,8 +2,8 @@
 
 Official website repository for **Aitech Automation**, showcasing industrial automation solutions, services, and company profile.
 
-🌐 **Live Demo:**  
-https://jokosantosa-pct.github.io/aitech-automation
+🌐 **Live Website:**  
+https://aitech-automation.ae
 
 ---
 
